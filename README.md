@@ -16,13 +16,13 @@ Or install it yourself as:
 
 ## Usage
 
-		jurisdiction :nav, using: :capybara do
-
-			def go_home
-				visit "/"
-			end
-
-		end
+    jurisdiction :nav, using: :capybara do
+      def go_home
+        visit "/"
+      end
+    end
+    
+    nav.go_home
 
 ## Contributing
 
