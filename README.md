@@ -24,6 +24,10 @@ Or install it yourself as:
     
     nav.go_home
 
+## Caveats
+
+Jursidiction currently only works under Ruby 2.0+
+
 ## Contributing
 
 1. Fork it
