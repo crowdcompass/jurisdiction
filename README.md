@@ -1,4 +1,7 @@
 # Jurisdiction
+[![Build Status](https://secure.travis-ci.org/crowdcompass/jurisdiction.png?branch=master)][travis]
+
+[travis]: http://travis-ci.org/crowdcompass/jurisdiction
 
 ## Installation
 
