@@ -13,9 +13,12 @@ module Jurisdiction
 
       mref = Jurisdiction.const_set(concern.to_s.capitalize, mod)
 
-      define_method concern do
+      dsl = Module.new
+      dsl.send(:define_method, concern) do
         mref
       end
+
+      include dsl
     end
 
   end
