@@ -1,4 +1,4 @@
-require 'minitest_helper'
+require 'spec_helper'
 
 jurisdiction :foo do
   def monkey_say
