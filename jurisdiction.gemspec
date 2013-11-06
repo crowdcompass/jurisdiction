@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "minitest"
   spec.add_development_dependency "guard-minitest"
 
-  spec.add_dependency "capybara", ">= 2"
+  spec.add_dependency "capybara"
 end
