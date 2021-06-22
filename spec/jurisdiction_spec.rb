@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'capybara/dsl'
 
 jurisdiction :foo do
   def monkey_say
